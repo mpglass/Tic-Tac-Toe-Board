@@ -1,0 +1,23 @@
+
+.board {display:grid
+    width: 100px;
+    height: 100px;}
+.top {display: inline-table;
+    position: relative;}
+    #box5 {border: 5px solid black;}
+    #box2 {border-left: 5px solid black;
+            border-right: 5px solid black;}
+    #box4 {border-top: 5px solid black;
+            border-bottom: 5px solid black;}
+    #box6 {border-top: 5px solid black;
+            border-bottom: 5px solid black;}
+    #box8 {border-left: 5px solid black;
+            border-right: 5px solid black;}
+input {display: block;
+        width: 90px;
+        height: 90px; 
+        margin: auto;
+        padding: 10px;
+    }
+
+
