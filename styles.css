@@ -1,23 +1,22 @@
+#board {padding-top: 3em;
+    text-align: center;}
 
-.board {display:grid
+.row > div {float: left;
+    height: 100px;
     width: 100px;
-    height: 100px;}
-.top {display: inline-table;
-    position: relative;}
-    #box5 {border: 5px solid black;}
-    #box2 {border-left: 5px solid black;
-            border-right: 5px solid black;}
-    #box4 {border-top: 5px solid black;
-            border-bottom: 5px solid black;}
-    #box6 {border-top: 5px solid black;
-            border-bottom: 5px solid black;}
-    #box8 {border-left: 5px solid black;
-            border-right: 5px solid black;}
-input {display: block;
-        width: 90px;
-        height: 90px; 
-        margin: auto;
-        padding: 10px;
     }
+
+.row {clear: both;
+    margin: 0 auto;
+    width: 302px;}
+
+.top {border-bottom: 1px solid black;}
+.bottom {border-top: 1px solid black ;}
+.left {border-right: 1px solid black;}
+.right {border-left: 1px solid black;}
+
+.row:hover {cursor: pointer;}
+
+
 
 
